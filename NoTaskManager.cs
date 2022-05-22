@@ -47,9 +47,5 @@ namespace ButtonEmulator
             //    CheckProcess();
             //}
         }
-        public async void CheckProcessAsync()
-        {
-            await Task.Run(() => CheckProcess());
-        }
     }
 }
